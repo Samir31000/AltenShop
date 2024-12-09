@@ -1,0 +1,9 @@
+<div class="login-container">
+    <form (ngSubmit)="onLogin()">
+      <label for="username">Nom d'utilisateur :</label>
+      <input id="username" type="text" [(ngModel)]="username" name="username" required placeholder="Lambda" />
+  
+      <button type="submit">Connexion</button>
+    </form>
+</div>
+  
